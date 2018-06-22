@@ -83,7 +83,7 @@ Resources:
       - Name: xl-release
         Cpu: '10'
         Essential: 'true'
-        Image: vpartington/xl-release:v7.5.3
+        Image: xebialabs/xl-release:8.1
         Memory: '2048'
         LogConfiguration:
           LogDriver: awslogs
